@@ -46,6 +46,6 @@ minikube service <nombre del servicio>
 ```
 restart deploy
 
-kubectl rollout restart  <nombre del deploy>
+kubectl rollout restart deployment <nombre del deploy>
 ```
 
