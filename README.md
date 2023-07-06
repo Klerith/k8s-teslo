@@ -26,6 +26,7 @@ kubectl apply -f postgres.yml
 kubectl get all
 
 kubectl logs <nombre del deployment>
+kubectl describe <nombre del deployment>
 kubectl get events
 ```
 
@@ -34,3 +35,17 @@ minikube ip
 
 minikube ssh -- docker images
 ```
+
+
+```
+minikube expose
+
+minikube service <nombre del servicio>
+```
+
+```
+restart deploy
+
+kubectl rollout restart deployment <nombre del deploy>
+```
+
